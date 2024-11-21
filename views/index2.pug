@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title Vinayak Dance Academy
+    style
+      include ../static/style.css
+
+body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo2.png")
+                | VDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to Vinayak's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#MissionSection
+        h2 Our Mission
+        div.card 
+            h3 Dance in our soul
+            div.card-img
+                 img(src="/static/1.1.png")
+            div.card-content
+                 p This is the best dance academy of the universe     
+
+        div.card 
+            h3 Dance increases Endurance
+            div.card-img
+                 img(src="/static/2.png")
+            div.card-content
+                 p This is the best dance academy of the universe  
+
+        div.card 
+            h3 Dance increases Capacity 
+            div.card-img
+                 img(src="/static/3.3.png")
+            div.card-content
+                 p This is the best dance academy of the universe        
+
+    section#sponsorsSection
+        div.container
+        h2 Our Sponsors
+        img(src="/static/apple.png", alt= "Sponsor Image", class= "spImage")
+        img(src="/static/ms.jfif", alt= "Sponsor Image", class= "spImage")
+        img(src="/static/hp.png", alt= "Sponsor Image", class= "spImage")
+        img(src="/static/se.jfif", alt= "Sponsor Image", class= "spImage")
+    footer#footer
+        | Copyright @ 2022 VinayakDanceAcademy | All right reserved             

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Baloo+Bhaijaan+2:wght@800&family=Dosis:wght@200;800&family=Fascinate&family=Kdam+Thmor+Pro&family=Koulen&family=League+Gothic&family=Lobster&family=Macondo&family=Odibee+Sans&family=Oleo+Script+Swash+Caps&family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Baloo+Bhaijaan+2:wght@800&family=Dosis:wght@200;800&family=Fascinate&family=Kdam+Thmor+Pro&family=Koulen&family=League+Gothic&family=Lobster&family=Macondo&family=Odibee+Sans&family=Oleo+Script+Swash+Caps&family=Oswald:wght@300&family=Peralta&family=Roboto+Condensed:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Baloo+Bhaijaan+2:wght@800&family=Dosis:wght@200;800&family=Fascinate&family=Kdam+Thmor+Pro&family=Koulen&family=League+Gothic&family=Lobster&family=Macondo&family=Odibee+Sans&family=Oleo+Script+Swash+Caps&family=Oswald:wght@300&family=Peralta&family=Roboto+Condensed:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Baloo+Bhaijaan+2:wght@800&family=Dosis:wght@200;800&family=Fascinate&family=Kdam+Thmor+Pro&family=Koulen&family=League+Gothic&family=Lobster&family=Macondo&family=Odibee+Sans&family=Oleo+Script+Swash+Caps&family=Oswald:wght@300&family=Peralta&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 13px, 14px;
+    color: white;
+    font-size: 27px;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+    margin: 12px;
+}
+#navbar li a:hover{
+    color: red;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+    color: aliceblue;
+    justify-content: left;
+    align-items: left;
+    
+}
+#logo img{
+    float: left;
+    height: 100px;
+    text-align: left;
+   
+}
+
+#introSection{
+    color:beige;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    font-size: 65px;
+}
+
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+    
+}
+
+
+ 
+#sponsorsSection{
+    background-color: wheat;
+    height: 300px;
+  
+}
+#MissionSection{
+    background-color: white;
+    height: 300px; 
+    width: 67%;
+    margin: auto;
+}
+
+#MissionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 35px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px ;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card p{
+    text-align: center;
+}
+#sponsorsSection h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 12px;
+}
+#sponsors{
+    height: 180px;
+    max-width: 100px;
+    margin: auto;
+    display: block;
+}
+.container{
+    margin: auto;
+    display: block;
+}
+.spImage{
+    height: 180px;
+    margin: 20px;
+    width: 200px;
+}
+
+#footer{
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    margin: 40px;
+}
